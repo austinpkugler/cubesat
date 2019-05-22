@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Allows unicode -->
+    <meta charset="utf-8">
+    <!-- Scaling for screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project DaVinci Cubesat Crew</title>
+    <link rel="icon" href="img/cubesat_icon.png">
+    <!-- Page information -->
+    <meta name="description" content="Official PDC Website">
+    <meta name="author" content="Project DaVinci Web Developement Team">
+    <!-- Bootstrap css links -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+    <!-- Stylesheet links -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+    <style type="text/css">
+    /*
+    ==============================================================================================================================================================================================================
+    Content Section
+    ==============================================================================================================================================================================================================
+    */
+      #content {
+        margin: auto;
+        width: 100%;
+      }
+      #content h3 {
+      	font-size: 22px;
+      	margin: 0 0 20px 0;
+      }
+      #content h2 {
+      	position: relative;
+      	margin-bottom: 15px;
+      	padding-bottom: 15px;
+      }
+      #content h2::after {
+      	position: absolute;
+      	content: "";
+      	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+      	height: 4px;
+      	width: 60px;
+      	bottom: 0;
+      	left: 0;
+      }
+      /*#content .content_descriptions-text {
+        background-color: green; /* for testing 
+      }*/
+      #content .content_descriptions-text li {
+      	margin-bottom: 6px;
+      	margin-left: 6px;
+      	list-style: none;
+      	padding: 0;
+      }
+      #content .content_description-text li:before {
+      	content: '\f00c';
+      	font-family: 'FontAwesome';
+      	color: #5ca9fb;
+      	font-size: 11px;
+      	font-weight: 300;
+      	padding-right: 8px;
+      }
+      #content img {
+      	width: 200px;
+      	height: 200px;
+      	margin-top: 10px;
+      	background: #fff;
+      	border-right: 0;
+      	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+      }
+      #content p {
+      	line-height: 24px;
+      	margin: 30px 0;
+      }
+      #content p, ul {
+      	padding: 0px;
+      	display: inline;
+      }
+      #content .section-title {
+      	margin-top: 25px;
+      	margin-bottom: 10px;
+      }
+      #content .section-title h2, h3 {
+      	position: relative;
+      	margin-top: 10px;
+      	margin-bottom: 15px;
+      	padding-bottom: 15px;
+      }
+      #content .section-title h2::after {
+      	position: absolute;
+      	content: "";
+      	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+      	height: 4px;
+      	width: 60px;
+      	bottom: 0;
+      	margin-left: -30px;
+      	left: 50%;
+      }
+      #content .section-title h3::after {
+      	position: absolute;
+      	content: "";
+      	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+      	height: 4px;
+      	width: 60px;
+      	bottom: 0;
+      	margin-left: -30px;
+      	left: 50%;
+      }
+      #content .section-title p {
+      	font-size: 18px;
+      }
+      #content .team_pictures {
+        color: black;
+      }
+      #content .team_pictures-padding {
+        padding-top: 0px;
+        padding-right: 0px;
+      }
+      .coming_soon {
+          padding-bottom: 200px;
+      }
+      /* supports mobile */
+      @media only screen and (max-width: 768px) {
+        #content {
+          margin: auto;
+          width: 100%;
+          padding: 100px 0;
+          background-color: #f6f6f6;
+        }
+        #content .content_description-text {
+          color: red;
+          background-color: red;
+        }
+        #content img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 50%;
+          width: 200px;
+          height: 200px;
+          margin-top: 10px;
+          background: #fff;
+          border-right: 0;
+          box-shadow: 0 0 50px rgba(0,0,0,0.06);
+        }
+      }
+    @media only screen and (max-width: 900px) {
+      #content .team_pictures {
+        display: none;
+      }
+    }
+    /*
+    ==============================================================================================================================================================================================================
+    bitcoin Section
+    ==============================================================================================================================================================================================================
+    */
+    #bitcoin {
+      background-color:#f6f6f6;
+      padding-top: 100px;
+    }
+    /*
+    ==============================================================================================================================================================================================================
+    bitcoin Section
+    ==============================================================================================================================================================================================================
+    */
+    </style>
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <button onclick="topFunction()" id="goTopButton" class="btn-custom" title="Go to top">Go to top</button>
+    <!-- START Navigation -->
+    <nav id="menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <a class="navbar-brand page-scroll" href="#page-top"><img class="cubesatLogo" src="img/cubesat_logo.jpg" alt="CubeSat logo"></a> </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!--<div class="dropdown">-->
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html" class="page-scroll">Home</a></li>
+              </ul>
+        <!-- /.navbar-collapse --> 
+        </div>
+      </div>
+    </nav>
+    <!--
+    ==============================================================================================================================================================================================================
+    Bitcoin Section
+    ==============================================================================================================================================================================================================
+    -->
+    <div id="content">
+        <div id="bitcoin">
+            <div class="container">
+                <div class="row coming_soon">
+                    <div class="section-title center">
+                        <h2>This page coming soon!</h2>
+                    </div>
+                    <p><center>This content will be availiable once all of our CubeSat Bitcoin Transfer Protocol has been fully tested.</center></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    ==============================================================================================================================================================================================================
+    Contact Us Section
+    ==============================================================================================================================================================================================================
+    -->
+    <div id="contact">
+      <div class="container">
+        <div class="col-md-8">
+          <div class="row">
+            <div class="section-title center">
+              <h2>Contact Us</h2>
+              <p>Please fill out your name and email address, as well as the message to ensure our timely response.</p>
+            </div>
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div id="success"></div>
+              <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-3 col-md-offset-1 contact-info">
+          <div class="contact-item">
+            <div class="section-title center">
+              <h3>Contact Information</h3>  
+            </div>
+            <p><span><i class="fa fa-map-marker"></i>Address</span>15633 N Meyer Rd<br> Rathdrum, ID 83858<br>
+              </p>
+          </div>
+          <div class="contact-item">
+            <p><span><i class="fa fa-phone"></i> Phone</span> +1-208-687-8002</p>
+          </div>
+          <div class="contact-item">
+            <p><span><i class="fa fa-envelope-o"></i> Email</span> 
+              <div class="padBottomEmail">projectdavinci@northidahostem.org</div><br>
+            </p>
+          </div><!--Credit to Jerry Myers for bio descriptions-->
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/Project-DaVinci-1225716617456409/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/davincicubesat?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCu0gP2cAunfIhNwQB_xhskA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/project-davinci-8077a7116" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/project_davinci/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- 
+    ==============================================================================================================================================================================================================
+    Footer Section 
+    ==============================================================================================================================================================================================================
+    -->
+    <div id="footer">
+      <div class="container text-center">
+        <hr>
+        <p>&copy;Project DaVinci Cubesat 2018-2019</p>
+        <p>Utilizes <a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap Framework</a>.</p>
+        <p>Web developement team orgainized by <a href="https://www.northidahostem.org/" target="_blank">NISCA</a>.</p>
+        <p>Donate via PayPal <a href="https://www.paypal.com/donate/?token=yuwAWL9_mXmBENqxny3H0QSwp6CvAa8cqsHlVXiKU7C3WNqQGhymY338u87wWN-sqrNZv0&country.x=US&locale.x=US" target="_blank" title="Paypal Donation">HERE</a>.</p>
+      </div>
+    </div>
+    <!-- 
+    ==============================================================================================================================================================================================================
+    External JavaScript Links
+    ==============================================================================================================================================================================================================
+    -->
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.js"></script> 
+    <script type="text/javascript" src="js/SmoothScroll.js"></script> 
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+    <script type="text/javascript" src="js/contact_me.js"></script> 
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/scroll_top.js"></script>
+  </body>
+</html>

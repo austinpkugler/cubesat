@@ -1,0 +1,910 @@
+/*
+==============================================================================================================================================================================================================
+Styles All Elements on Website 
+==============================================================================================================================================================================================================
+*/
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 400;
+	width: 100% !important;
+	height: 100% !important;
+}
+/* Styles All Headings */
+h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+}
+h2 {
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-weight: 800;
+	font-size: 36px;
+	color: #333;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #333;
+}
+h4 {
+	font-size: 18px;
+	color: #333;
+	font-weight: 600;
+}
+h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+/* Styles all paragraphs */
+p {
+	font-size: 15px;
+}
+/* Styles the following aspects of all listing */
+ul, ol {
+	list-style: none;
+}
+ul, ol {
+	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
+}
+/* Styles line breaks where a visible line is present */
+hr {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background:  linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	margin-bottom: 20px;
+	border: 0;
+}
+/* Styles links */
+/* Default link */
+a:link {
+    color: #0033cc;
+}
+/* Visited links */
+a:visited {
+    color: #990099;
+}
+/* Hovered links */
+a:hover {
+    color: #ff3300;
+}
+/* Active links */
+a:active {
+    color: #66ffff;
+}
+/* Creates go to top button */
+#goTopButton {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+/* On hover go to top btn text-color fades into black  */
+#goTopButton:hover {
+    color: black;
+}
+/* Class to center text */
+.center {
+	text-align: center;
+}
+/* Class for styling html5 <cite> tag */
+.cite {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-size: 0.75em;
+}
+/*#indiegogo-banner {
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+}*/
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Navigation Section
+==============================================================================================================================================================================================================
+*/
+#menu {
+	padding: 15px;
+	transition: all 0.8s;
+}
+#menu.navbar-default {
+	background-color: #bfbfbf;
+	border-color: rgba(231, 231, 231, 0);
+	box-shadow: 0 0 10px rgba(0,0,0,0.15)
+}
+#menu a.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+#menu.navbar-default .navbar-nav > li > a {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	color: #555;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 8px 2px;
+	border-radius: 0;
+	margin: 9px 20px 0 20px;
+}
+#menu.navbar-default .navbar-nav > li > a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -1px;
+	width: 0;
+	height: 2px;
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	content: "";
+	transition: width 0.2s;
+}
+#menu.navbar-default .navbar-nav > li > a:hover:after {
+	width: 100%;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a:after, .navbar-default .navbar-nav > .active > a:hover:after, .navbar-default .navbar-nav > .active > a:focus:after {
+	display: block !important;
+	position: absolute !important;
+	left: 0 !important;
+	bottom: -1px !important;
+	width: 100% !important;
+	height: 2px !important;
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%) !important;
+	content: "" !important;
+	transition: width 0.2s !important;
+}
+.navbar-toggle {
+	border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #fff;
+	border-color: #608dfd;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #608dfd;
+}
+.section-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.section-title h2 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+.section-title h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+.section-title p {
+	font-size: 18px;
+}
+.cubesatLogo {
+  float: left;
+  text-align: left;
+  width: 80px;
+  height: 75.42px;
+  margin: -20px;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.btn-custom {
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	color:  #555/*#f6f6f6*/;
+	background-color: #5ca9fb;
+	background-image: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	padding: 8px;
+	letter-spacing: 1px;
+	margin: 0px;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 25px;
+	transition: all 0.5s linear;
+	border: 0;
+}
+
+
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in About Project DaVinci Section
+==============================================================================================================================================================================================================
+*/
+#about {
+	padding: 100px 0;
+	background: #f6f6f6;
+}
+#about i.fa {
+	font-size: 43px;
+	margin-bottom: 20px;
+	transition: all 0.5s;
+	color: #fff;
+	width: 100px;
+	height: 100px;
+	padding: 30px 0;
+	border-radius: 50%;
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+}
+#myCarousel {
+	height: 450px;
+	width: 600px;
+	margin: auto;
+    border: 1px solid green;
+    padding: 2px;
+}
+.carousel-caption h1 {
+  text-shadow: -2px -1px 1px black;
+  /*background-color: rgba(0,0,0,0.1);*/
+}
+.carousel-caption p {
+  /*text-shadow: -2px -1px 1px black;*/
+  /*background-color: rgba(0,0,0,0.1);*/
+}
+.caption-box {
+  background-color: rgba(0,0,0,0.2);
+}
+.nobgbox {
+  background-color: transparent;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Our Mission Section
+==============================================================================================================================================================================================================
+*/
+#our_mission {
+	padding: 100px 0;
+	background-color: #ccd8ff;
+}
+#our_mission h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#our_mission h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#our_mission h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#our_mission .our_mission-text ul li::before {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	color: #3b7247;
+	
+}
+#our_mission .our_mission-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#our_mission img {
+	width: 640px/*1800px*/;
+	/*height: 900px;*/
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#our_mission p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+#our_mission p, ul {
+	padding: 0px;
+	display: inline;
+}
+#our_mission .section-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#our_mission .section-title h2 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#our_mission .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#our_mission .section-title p {
+	font-size: 18px;
+}
+#our_mission .clear_none {
+	display: inline-block;
+	clear: none;
+}
+#our_mission .small_text {
+	font-size: 0.5em;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Satellite Overview Section
+==============================================================================================================================================================================================================
+*/
+/*#satellite_overview {
+	height: 500px;
+	background-color: #f6f6f6;
+}*/
+#satellite_overview {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+#satellite_overview h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#satellite_overview h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#satellite_overview h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#satellite_overview .satellite_overview-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+#satellite_overview .satellite_overview-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#satellite_overview img {
+	width: 640px/*1800px*/;
+	/*height: 900px;*/
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#satellite_overview p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+#satellite_overview p, ul {
+	padding: 0px;
+	display: inline;
+}
+#bottomImage {
+	padding-top: 35px;
+}
+.clyde_space_2 {
+	height: 300px;
+}
+.global_star {
+	height: 325px;
+}
+
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Participate Section
+==============================================================================================================================================================================================================
+*/
+#participate {
+	padding: 100px 0;
+	background-color: #ccd8ff;
+}
+#participate h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#participate h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#participate h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#participate .participate_overview-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+#participate .participate_overview-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#participate img {
+	width: 640px/*1800px*/;
+	/*height: 900px;*/
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#participate p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+#participate ol.decimal {
+	padding: 0px;
+	list-style-type: decimal;
+}
+#participate .pad_top {
+	padding-top: 5%;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in the Crew Section
+==============================================================================================================================================================================================================
+*/
+#crew {
+	padding: 100px 0;
+	background-color: #f6f6f6;
+}
+#crew h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#crew h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#crew h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#crew .crew-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+#crew .crew-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#crew img {
+	width: 640px/*1800px*/;
+	/*height: 900px;*/
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#crew p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+#crew p, ul {
+	padding: 0px;
+	display: inline;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Sponsors
+==============================================================================================================================================================================================================
+*/
+
+#sponsors {
+	padding: 100px 0;
+	background-color: #ccd8ff;
+}
+#sponsors h3 {
+	font-size: 22px;
+	margin: 0 0 20px 0;
+}
+#sponsors h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#sponsors h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 0;
+}
+#sponsors .sponsors-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+#sponsors .sponsors-text li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+#sponsors img {
+	width: 640px;
+	margin-top: 10px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+#sponsors p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+#sponsors p, ul {
+	padding: 0px;
+	display: inline;
+} 
+#sponsors .section-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#sponsors .section-title h2, h3 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#sponsors .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#sponsors .section-title h3::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#sponsors .section-title p {
+	font-size: 18px;
+}
+#sponsors .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Gallery Section
+==============================================================================================================================================================================================================
+*/
+#gallery {
+	padding: 100px;
+	background-color: #f6f6f6;
+}
+.gallery-item {
+	margin: 1px -15px 0 -14px;
+	padding: 0;
+}
+.gallery-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	background: linear-gradient(to right, rgba(79, 147, 95, 0.7) 30%, rgba(59, 114, 71, 0.7) 70%);
+	padding: 30% 0 0 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+.hover-bg .hover-text>h4 {
+	opacity: 0;
+	color: #fff;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all 0.3s;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.hover-bg:hover .hover-text>h4 {
+	opacity: 1;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+} 
+.gallery_image {
+	width: 500px;
+	height: 300px;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Contact Section
+==============================================================================================================================================================================================================
+*/
+#contact {
+	padding: 100px 0 60px 0;
+	background: #ccd8ff /*linear-gradient(to right, #4f935f 0%, #3b7247 100%) same green gradient as everything else*/;
+	color: #555/*rgba(255,255,255,.75)*/;
+}
+
+#contact textarea {
+	resize: none;
+}
+#contact form {
+	padding-top: 20px;
+}
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+}
+#contact .btn-custom {
+	margin: 30px 0;
+	background: transparent;
+	border: 2px solid #555;
+}
+#contact .btn-custom:hover {
+	color: #4f935f;
+	background: #bfbfbf;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #555;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+#contact .form-control:focus {
+	border-color: #555;
+	outline: 0;
+	-webkit-box-shadow: transparent;
+	box-shadow: transparent;
+}
+#contact h3 {
+	color: #555;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+#contact .section-title {
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+#contact .section-title h2, h3 {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+#contact .section-title h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#contact .section-title h3::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #4f935f 0%, #3b7247 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+#contact .section-title p {
+	font-size: 18px;
+}
+.form-control::-webkit-input-placeholder {
+	color: #777;
+}
+.form-control:-moz-placeholder {
+	color: #777;
+}
+.form-control::-moz-placeholder {
+	color: #777;
+}
+.form-control:-ms-input-placeholder {
+	color: #777;
+}
+#contact .contact-item {
+	margin: 20px 0;
+}
+#contact .contact-item span {
+	color: #555;
+	margin-bottom: 10px;
+	display: block;
+}
+#contact .contact-item i.fa {
+	margin-right: 10px;
+}
+#contact .social {
+	border-top: 1px solid rgba(255,255,255,0.15);
+	padding-top: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+#contact .social i.fa {
+	font-size: 22px;
+	width: 48px;
+	height: 48px;
+	padding: 12px 0;
+	border: 2px solid #555;
+	color: #555;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+#contact .social i.fa:hover {
+	color: #4f935f;
+	background: #bfbfbf;
+}
+/*
+==============================================================================================================================================================================================================
+Styles All Elements in Footer Section
+==============================================================================================================================================================================================================
+*/
+#footer {
+	background: #f6f6f6;
+	padding: 30px 0;
+}
+#footer p {
+	color: #888;
+	font-size: 14px;
+}
+/*
+==============================================================================================================================================================================================================
+@media additions to bootstrap
+==============================================================================================================================================================================================================
+*/
+@media (max-width: 768px) {
+	
+	.cubesatLogo {
+		width: 59px;
+		height: 59px;
+	}
+	
+	#satellite_overview img {
+		margin: 50px 0;
+	}
+	/* PROBLEM IMAGE - mobile less that 768px causes intense stretching */
+	#bottomImage {
+		padding: 0;
+	}
+	#myCarousel {
+		height: 100px;
+		width: 70%;
+	    border: none;
+	}
+	.section-title h2 {
+		position: relative;
+		margin-top: 100px;
+		margin-bottom: 15px;
+		padding-bottom: 15px;
+	}
+	#myCarousel {
+		display: none;
+		/*visibility: hidden;*/
+	}
+	/*.goTopButton {
+		display: none;
+		visibility: hidden;
+	}*/
+}
+
+
+
+

@@ -30,7 +30,7 @@ Team Members and Text/Image Contributors:
 
 FRONTEND:
     NISCA Responsibility 
-        - link to instructions on how to recieve Bitcoin from space--should link to bitcoin.html (index.html; line 213)
+        - link to instructions on how to recieve Bitcoin from space. Should link to bitcoin.html (index.html; line 213)
 
 BACKEND:
     NISCA Responsibility 

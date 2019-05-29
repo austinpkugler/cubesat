@@ -26,7 +26,7 @@ Team Members and Text/Image Contributors:
     13. Natalie Potter (ret.)
 
 ---------------------------------------------------------------------------
-# Incomplete elements:                                                    #
+# Incomplete elements:                                                    
 ---------------------------------------------------------------------------
 FRONTEND:
     NISCA Responsibility 

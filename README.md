@@ -30,10 +30,7 @@ Team Members and Text/Image Contributors:
 ---------------------------------------------------------------------------
 FRONTEND:
     NISCA Responsibility - 
-        - Add NISCA/PDU jet propulsion challenge link (index.html; line 354) ?Are we still doing this?
         - link to instructions on how to recieve Bitcoin from space--should link to bitcoin.html (index.html; line 213)
-        - link to register as a business--this will link to where a user can register an account (index.html; line 348)
-        - link to register as an educational institution--this will link to where a user can register an account (index.html; line 362)
 
     Lazlo Responsibility -
         - None

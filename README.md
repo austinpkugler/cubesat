@@ -1,5 +1,5 @@
-# cubesat
-Official Project DaVinci CubeSat website
+# Official Project DaVinci CubeSat website
+
 Project Title: 
     Project DaVinci CubeSat Website
     

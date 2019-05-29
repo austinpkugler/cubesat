@@ -25,14 +25,14 @@ Team Members and Text/Image Contributors:
     11. Joseph Benson (ret.)
     12. Alauna Davidson
     13. Natalie Potter (ret.)
-
-# Incomplete elements:                                                    
-
-FRONTEND:
+---------------------------------------------------------------------------
+# TODO:                                                    
+---------------------------------------------------------------------------
+# FRONTEND:
     NISCA Responsibility 
         - link to instructions on how to recieve Bitcoin from space. Should link to bitcoin.html (index.html; line 213)
 
-BACKEND:
+# BACKEND:
     NISCA Responsibility 
         - Domain name
 

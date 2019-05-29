@@ -6,12 +6,13 @@ Project Title:
 Purpose: 
     Provide users with all information related to our project. 
     Allow users to register accounts and perform bitcoin transfers. 
-    Store accounts on KRAMBU or NISCA servers.
+    Store accounts on NISCA Servers?
     
 Contributors: 
     Austin Kugler, Hayden Carroll, Laszlo Antal
     
 Team Members and Text/Image Contributors:
+
     1. Hayden Carroll
     2. Justin Kugler 
     3. Paige Pence (ret.)

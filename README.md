@@ -1,5 +1,6 @@
+---------------------------------------------------------------------------
 # Official Project DaVinci CubeSat website
-
+---------------------------------------------------------------------------
 Purpose: 
     Provide users with all information related to our project. 
     Allow users to register accounts and perform bitcoin transfers. 
@@ -25,9 +26,8 @@ Team Members and Text/Image Contributors:
     12. Alauna Davidson
     13. Natalie Potter (ret.)
 
----------------------------------------------------------------------------
 # Incomplete elements:                                                    
----------------------------------------------------------------------------
+
 FRONTEND:
     NISCA Responsibility 
         - link to instructions on how to recieve Bitcoin from space--should link to bitcoin.html (index.html; line 213)

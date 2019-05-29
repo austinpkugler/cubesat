@@ -1,8 +1,5 @@
 # Official Project DaVinci CubeSat website
 
-Project Title: 
-    Project DaVinci CubeSat Website
-    
 Purpose: 
     Provide users with all information related to our project. 
     Allow users to register accounts and perform bitcoin transfers. 

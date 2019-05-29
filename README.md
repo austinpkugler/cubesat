@@ -29,17 +29,14 @@ Team Members and Text/Image Contributors:
 # Incomplete elements:                                                    #
 ---------------------------------------------------------------------------
 FRONTEND:
-    NISCA Responsibility - 
+    NISCA Responsibility 
         - link to instructions on how to recieve Bitcoin from space--should link to bitcoin.html (index.html; line 213)
 
-    Lazlo Responsibility -
-        - None
-
 BACKEND:
-    NISCA Responsibility -
+    NISCA Responsibility 
         - Domain name
 
-    Lazlo Responsibility - 
+    Lazlo Responsibility 
         - Connect new DaVinci frontend with existing backend
         - Link new frontend login and register with preferred scripts for logging in and registering
         - Implement /admin login on new website

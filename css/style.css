@@ -884,6 +884,9 @@ Styles All Elements in Footer Section
 	#bottomImage {
 		padding: 0;
 	}
+	#participate {
+		padding-left: 10px;
+	}
 	#myCarousel {
 		height: 100px;
 		width: 70%;

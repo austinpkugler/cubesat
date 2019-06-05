@@ -805,6 +805,9 @@ label {
 #contact .section-title p {
 	font-size: 18px;
 }
+#contact .social_icons {
+	padding-bottom: 8px;
+}
 .form-control::-webkit-input-placeholder {
 	color: #777;
 }
@@ -830,8 +833,8 @@ label {
 }
 #contact .social {
 	border-top: 1px solid rgba(255,255,255,0.15);
-	padding-top: 50px;
-	margin-top: 50px;
+	padding-top: 0px;
+	margin-top: 0px;
 	text-align: center;
 }
 #contact .social ul li {
@@ -880,12 +883,11 @@ Styles All Elements in Footer Section
 	#satellite_overview img {
 		margin: 50px 0;
 	}
-	/* PROBLEM IMAGE - mobile less that 768px causes intense stretching */
-	#bottomImage {
-		padding: 0;
-	}
 	#participate {
 		padding-left: 10px;
+	}
+	#bottomImage {
+		padding: 0;
 	}
 	#myCarousel {
 		height: 100px;
@@ -907,7 +909,3 @@ Styles All Elements in Footer Section
 		visibility: hidden;
 	}*/
 }
-
-
-
-

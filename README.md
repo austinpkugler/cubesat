@@ -30,7 +30,10 @@ Team Members and Text/Image Contributors:
 ---------------------------------------------------------------------------
 # FRONTEND:
     NISCA Responsibility 
-        - link to instructions on how to recieve Bitcoin from space. Should link to bitcoin.html (index.html; line 213)
+        - Add link to instructions on how to recieve Bitcoin from space. Should link to bitcoin.html (index.html; line 213)
+        - Fix issue where margins appear excessively large on mobile.
+        - Fix issue where sponsor images suffer from unwanted scaling on mobile.
+        - The circular emoticons for all of the social media should be moved to just below the contact us section.
 
 # BACKEND:
     NISCA Responsibility 

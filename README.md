@@ -40,9 +40,9 @@ Team Members and Text/Image Contributors:
         - Domain name
 
     Lazlo Responsibility 
-        - Connect new DaVinci frontend with existing backend
-        - Link new frontend login and register with preferred scripts for logging in and registering
-        - Implement /admin login on new website
-        - Host new website at old domain projectdavinci.org (good until 2020), STEM currently has access to domain name
+        - Connect new DaVinci frontend with existing backend.
+        - Link new frontend login and register with preferred scripts for logging in and registering.
+        - Implement /admin login on new website.
+        - Host new website at old domain projectdavinci.org (valid until 2020), STEM currently has access to domain name.
         - Allow DaVinci team to access source code for all frontend, edit it, and publish the changed source code.
-        - Connect the email form on the new frontend to preferred method for emailing, bot filtering is a plus
+        - Connect the email form on the new frontend to preferred method for emailing, bot filtering is a plus.
